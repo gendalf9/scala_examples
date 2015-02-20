@@ -8,4 +8,12 @@ object HashSetExample extends App{
   treasureMap += (2-> "Find big X on ground")
   treasureMap += (3-> "Dig")
   println(treasureMap(2))
+
+  val testArray = Array("test", "test2")
+  printArgs(testArray)
+
+
+  def printArgs(args: Array[String]): Unit = {
+    args.foreach(println)
+  }
 }
